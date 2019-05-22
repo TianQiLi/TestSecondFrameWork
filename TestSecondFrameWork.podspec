@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name         = "TestSecondFrameWork"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "test ."
 s.homepage     = "https://github.com/TianQiLi/TestSecondFrameWork"
 s.license      = "MIT"
@@ -20,7 +20,7 @@ s.frameworks   = "Foundation", "UIKit"
 s.vendored_frameworks ='TestSecondFrameWork.framework'
  
 s.source       = { :http => "https://raw.githubusercontent.com/TianQiLi/TestSecondFrameWork/master/TestSecondFrameWork.zip"}
-
+s.resources = 'TestSecondFrameWork.bundle'
 
 s.requires_arc = true
 
