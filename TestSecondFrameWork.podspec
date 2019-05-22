@@ -18,8 +18,8 @@ s.platform     = :ios, "8.0"
 
 s.frameworks   = "Foundation", "UIKit"
 s.vendored_frameworks ='TestSecondFrameWork.framework'
-
-s.source       = { :http => "https://github.com/TianQiLi/TestSecondFrameWork/TestSecondFrameWork.zip"}
+ 
+s.source       = { :http => "https://raw.githubusercontent.com/TianQiLi/TestSecondFrameWork/master/TestSecondFrameWork.zip"}
 
 
 s.requires_arc = true
